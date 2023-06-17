@@ -43,15 +43,19 @@ Run npm run build in your Terminal.
 By default, the build output will be placed at dist. You may deploy this dist folder to any of your preferred platforms.
 
 Add /dist folder into your repo. By running.
+
 $ git add dist -f
 
 -f is required, as your .gitignore will not consider your /dist folder. Hence, it is required for git to consider it as well.
 
 Run 
+
 $ git commit -m "Adding dist" 
+
 in your Terminal.
 
 Run 
+
 $ git subtree push --prefix dist origin gh-pages
 
 Your Deployed website
