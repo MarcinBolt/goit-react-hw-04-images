@@ -1,14 +1,10 @@
 # goit-react-hw-04-images
 
 Deploying Vite App to GitHub Pages
-#
-vite
-#
-githubpages
-#
-git
-#
-deploy
+#vite, #githubpages, #git, #deploy
+
+Source: https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane
+
 GitHub Pages
 You can use GitHub Pages to showcase some open source projects, host a blog, or even share your resume. This will guide you to get started on creating your next website.Github-pages
 
