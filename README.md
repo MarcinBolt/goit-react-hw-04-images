@@ -15,15 +15,21 @@ The following steps must be followed in serial-wise.
 
 We will create a seperate gh-pages branch that will contain our /dist folder.
 
-Push your code to your repository (using Terminal)
+Push your code to your repository (using Terminal) 
 cd to your Vite App.
 Run the following commands in your Terminal
-$ git init
-$ git add .
-$ git commit -m "first-commit"
-$ git branch -M main
-$ git remote add origin http://github.com/username/repo-name.git
-$ git push -u origin main
+$ git init 
+
+$ git add . 
+
+$ git commit -m "first-commit" 
+
+$ git branch -M main 
+
+$ git remote add origin http://github.com/username/repo-name.git 
+
+$ git push -u origin main 
+
 Now, you will able to see your code in your repository.
 
 Deploying (Static)
@@ -41,9 +47,12 @@ $ git add dist -f
 
 -f is required, as your .gitignore will not consider your /dist folder. Hence, it is required for git to consider it as well.
 
-Run $ git commit -m "Adding dist" in your Terminal.
+Run 
+$ git commit -m "Adding dist" 
+in your Terminal.
 
-Run $ git subtree push --prefix dist origin gh-pages
+Run 
+$ git subtree push --prefix dist origin gh-pages
 
 Your Deployed website
 Visit your repository.
